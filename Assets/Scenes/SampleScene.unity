@@ -2803,6 +2803,7 @@ GameObject:
   - component: {fileID: 2001742431}
   - component: {fileID: 2001742432}
   - component: {fileID: 2001742433}
+  - component: {fileID: 2001742434}
   m_Layer: 0
   m_Name: _Idle_0
   m_TagString: Untagged
@@ -3012,12 +3013,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001742424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a32c8b75f7c8d704eb6cb199ffb38eeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   HealthPotion: 1
+--- !u!114 &2001742434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001742424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a205f76e5fb4bf43ac6b853720a4149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exp: 60
 --- !u!1 &2031213555
 GameObject:
   m_ObjectHideFlags: 0
