@@ -2807,6 +2807,8 @@ GameObject:
   - component: {fileID: 2001742435}
   - component: {fileID: 2001742436}
   - component: {fileID: 2001742437}
+  - component: {fileID: 2001742438}
+  - component: {fileID: 2001742439}
   m_Layer: 0
   m_Name: _Idle_0
   m_TagString: Untagged
@@ -3067,12 +3069,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001742424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d8453d8f5b78544a89c30e7c42afb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hora: 0
+  dia: 0
+--- !u!114 &2001742438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001742424}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46929f4adafad3e469caaef1609c0e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TeamA: 0
+  TeamB: 0
+--- !u!114 &2001742439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001742424}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2dd03b862bb58343b7d3924bb745864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potion: 0
 --- !u!1 &2031213555
 GameObject:
   m_ObjectHideFlags: 0
