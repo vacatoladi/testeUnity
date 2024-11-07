@@ -24,6 +24,7 @@ public class Exercicio08 : MonoBehaviour
         {
             if (hora == 24)
             {
+                print("se passaram "+dia+"dia");
                 hora = 0;
                 dia++;
             }
@@ -33,7 +34,7 @@ public class Exercicio08 : MonoBehaviour
             }
         });
 
-        delay += 9999;
+        delay += 10000;
 
 
     }
