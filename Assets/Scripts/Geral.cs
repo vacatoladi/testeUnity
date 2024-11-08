@@ -18,12 +18,8 @@ public class Geral : MonoBehaviour
 
     void Start()
     {
-        /*
-        Debug.Log("hello World!!");
+       
 
-        print(PlayerName);
-
-        print(Alive);*/
     
     }
 

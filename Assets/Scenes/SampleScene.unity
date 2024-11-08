@@ -3070,13 +3070,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001742424}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d8453d8f5b78544a89c30e7c42afb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hora: 0
   dia: 0
+  segundos: 0
 --- !u!114 &2001742438
 MonoBehaviour:
   m_ObjectHideFlags: 0
