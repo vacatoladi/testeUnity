@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RepeticaoEx04 : MonoBehaviour
 {
-    int combos = 7;
+    int combos = 6;
     int pontuacao;
     void Start()
     {
@@ -11,7 +11,7 @@ public class RepeticaoEx04 : MonoBehaviour
             pontuacao += 10;
             if (combos == 0)
             {
-                print("pontuação total");
+                print("pontuação total = "+pontuacao);
             }
             combos --;
         }
